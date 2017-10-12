@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title: Contact Manager</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+ 
+    <div class="overlay"></div>
+    
+    <div class="modal">
+<!--        form Content-->
+        <div class="modal-header">
+            <h2>Add Contact</h2>
+        </div>
+        
+        <div class="modal-body">
+            <p class="formBox">
+                <label for="name">Full Name:</label>
+                <input id="name" type="text" placeholder="name" class="sm"/>
+            </p>
+        </div>
+        
+        <div class="modal-body">
+            <p class="formBox">
+                <label for="email">Email Address:</label>
+                <input id="email" type="email" min="5" placeholder="email" class="sm"/>
+            </p>
+        </div>
+    
+        <div class="modal-body">
+            <p class="formBox">
+                <label for="phone">Phone Number:</label>
+                <input id="phone" type="tel" max="20" min="9" placeholder="phone number" class="sm"/>
+            </p>
+        </div>     
+        
+        <div class="modal-buttons">
+            <button class="buttonSave">Save</button>
+            <button class="buttonCancel">Cancel</button>
+        </div>   
+        
+        <div class="modal-footer">
+            <h3>Contact Manager</h3>
+        </div>
+        
+    </div>
+ 
+<!-- *****************************************************************-->
+  <header>
+    <h1>Contact Manager</h1>
+  </header>
+  <main>
+    <ul class="contacts">
+<!--    
+      <li class="contact">
+        <span class="delete"></span>
+        <h3>Poe Dameron</h3>
+        <p class="email">poe.dameron@resistance.org</p>
+        <p class="phone">613-842-6363</p>
+      </li>
+-->
+    </ul>
+  </main>
+  <footer>
+    <div class="fab"></div>
+  </footer>
+  <script src="js/main.js"></script>
+  
+</body>
+</html>
