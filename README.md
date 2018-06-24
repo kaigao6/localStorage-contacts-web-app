@@ -1,5 +1,4 @@
 # localStorage-contacts-web-app
-Link: https://gao00078.edumedia.ca/mad9014/contact/index.html
 
 App description: Using HTML CSS and Javascript, I built a page that displays a list of contact information (sorted alphabetically) saved in localStorage and a pop-up form for adding and editing contacts.
 Each item in the list has a button to delete the contact. Adding a contact saves the information in localStorage. Editing an item updates the information in localStorage.
